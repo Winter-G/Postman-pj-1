@@ -1,0 +1,72 @@
+{
+	"id": "9763cb46-247f-4076-ace4-b2e0076a298b",
+	"name": "S92074672",
+	"timestamp": "2022-05-28T09:45:10.047Z",
+	"collection_id": "21195978-3439498c-f474-41ce-b3d9-fa8358c2860f",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "6a22c226-b568-432b-a21a-c29160e124af",
+			"name": "GET",
+			"time": 85,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				89,
+				103,
+				96,
+				85
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "a1a685e8-c2db-47ef-b496-1f9a76c6166a",
+			"name": "POST",
+			"time": 431,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				459,
+				439,
+				489,
+				431
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 4,
+	"totalTime": 2191,
+	"collection": {
+		"requests": [
+			{
+				"id": "6a22c226-b568-432b-a21a-c29160e124af",
+				"method": "GET"
+			},
+			{
+				"id": "a1a685e8-c2db-47ef-b496-1f9a76c6166a",
+				"method": "GET"
+			}
+		]
+	}
+}
